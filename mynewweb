@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/swiper.min.js"></script>
+        <script src="js/fade.js"></script>
+        <script src="js/myfun.js"></script>
+        <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=ValoesdxV5FKtB5aPDD86YAD"></script>
+
+        <link rel="stylesheet" href="css/swiper.min.css"/>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			html {
+				font-size: 62.5%;
+			}
+			ul li a{
+				font-size: 1.6rem;
+			}
+			
+		</style>
+
+	</head>
+
+	<body>
+		<nav class="navbar navbar-default" role="navigation">
+			<div style="margin: 0 auto;width: 1000px;"><img class="img-responsive" src="img/taileimage.png" /></div>
+		</nav>
+		<div style="margin: 0 auto;width: 1000px;">
+			<ul class="nav nav-pills nav-justified">
+				<li class="active">
+					<a href="#">主页</a>
+				</li>
+				<li>
+					<a href="webdel.html">网站建设</a>
+				</li>
+				<li>
+					<a href="appdel.html">app开发</a>
+				</li>
+				<li>
+					<a href="softdel.html">软件开发</a>
+				</li>
+				<li>
+					<a href="service.html">服务案例</a>
+				</li>
+				<li>
+					<a href="news.html">新闻资讯</a>
+				</li>
+				<li>
+					<a href="join.html">人才加盟</a>
+				</li>
+				<li>
+					<a href="aboutlt.html">走进乐泰</a>
+				</li>
+			</ul>
+		</div>
+		<div id="mid" style="margin: 10px auto;width: 1000px;">
+			<div class="swiper-container">
+		<div class="swiper-wrapper">
+		<div class="swiper-slide"><img src="img/about.jpg"/></div>
+		<div class="swiper-slide"><img src="img/wzjs.jpg"/></div>
+		<div class="swiper-slide"><img src="img/appdev.jpg"/></div>
+		<div class="swiper-slide"><img src="img/softdev.jpg"/></div>
+		<div class="swiper-slide"><img src="img/case.jpg"/></div>
+		<div class="swiper-slide"><img src="img/join.jpg"/></div>
+		
+		</div>
+		<div class="swiper-pagination"></div><!-- 分页器 -->
+		</div>
+		
+		<div style="margin: 5px auto;width: 1000px;text-align: center;border-bottom: 1px red solid;line-height: 2.6rem;">
+			<p id="fadin" class="text-muted" style="font-size: 1.6rem;">我们提供的不只是设计和程序开发，更提供有价值的思想与整体营销解决方案</p>
+		</div>
+		<div style="margin-top:5px; font-size: 1.4rem;margin-top: 5px;line-height: 2.6rem;">公司简介</div>
+
+   <div style="font-size: 1.4rem;text-indent: 2em;line-height: 2.6rem;">
+   	
+   	<h1 style="color: dodgerblue; font-size: 1.4rem;display: inline;font-weight:normal;">江苏乐泰网络科技有限公司</h1>（Jiangsu Litit Network Technology Co., Ltd.简称乐泰网络）,成立于2011年,是一家综合性信息科技网络公司，服务于全国。公司拥有完善的企业运作体系，主要核心部门有网站策划部、网站推广部、手机客户端开发、客户服务部等。
+   </div>
+   <div style="text-indent: 2em;font-size: 1.4rem;border-bottom: red 1px solid;line-height: 2.6rem;" id="mydiv">
+   	乐泰网络为您提供移动互联时代的<h1 style="color: dodgerblue; font-size: 1.4rem;display: inline;font-weight:normal;">网站建设</h1>,<h1 style="color: dodgerblue; font-size: 1.4rem;display: inline;font-weight:normal;">管理信息系统</h1>,<h1 style="color: dodgerblue; font-size: 1.4rem;display: inline;font-weight:normal;">app开发</h1>,
+   	<h1 style="color: dodgerblue; font-size: 1.4rem;display: inline;font-weight:normal;">全面营销</h1>等整体方案，为您有效提升企业形象、增加销售机会、降低宣传成本、收集营销数据，从而获得更多商机……[<a id="more" style="cursor:pointer;">显示更多</a>]
+   </div>
+   </div>
+   <div style="width: 1000px;margin: 5px auto;">
+   	  <div style="float:right;width:550px;display: inline;">
+            <div id="allmap"></div>
+        </div>
+   	<div style="width: 450px;">
+   <div style="margin-top:5px; font-size: 1.4rem;margin-top: 5px;line-height: 2.6rem;"><span class="glyphicon glyphicon-home" style="color: rgb(82, 88, 98);"> 联系方式:</span></div>
+   <div style="margin-top:5px; font-size: 1.4rem;margin-top: 5px;line-height: 2.6rem;text-indent: 2em;"><span class="glyphicon glyphicon-phone-alt" style="color: rgb(82, 88, 98);"> 电话：0515-83039966</span></div>
+   <div style="margin-top:5px; font-size: 1.4rem;margin-top: 5px;line-height: 2.6rem;text-indent: 2em;"><span class="glyphicon glyphicon-phone" style="color: rgb(82, 88, 98);"> 手机：17368099966</span></div>
+   <div style="margin-top:5px; font-size: 1.4rem;margin-top: 5px;line-height: 2.6rem;text-indent: 2em;"><span class="glyphicon glyphicon-th-large" style="color: rgb(82, 88, 98);"> 网址：www.litit.cn</span></div>
+   <div style="margin-top:5px; font-size: 1.4rem;margin-top: 5px;line-height: 2.6rem;text-indent: 2em;"><span class="glyphicon glyphicon-envelope" style="color: rgb(82, 88, 98);"> 邮箱：serv@litit.cn</span></div>
+   <div style="margin-top:5px; font-size: 1.4rem;margin-top: 5px;line-height: 2.6rem;text-indent: 2em;"><span class="glyphicon glyphicon-map-marker" style="color: rgb(82, 88, 98);"> 地址：盐城市城南新区世纪大道5号金融城7号公馆2106室</span></div>
+   </div>
+  
+    <div class="text-muted" style="text-align: center;margin: 25px auto;">
+    	
+    	<div style="font-size: 1.2rem;">CopyRight@2009-2022 江苏乐泰网络科技有限公司 All Rights Reserved.苏ICP备10055702号</div>
+    </div>    
+
+
+	</body>
+
+</html>
+<script type="text/javascript">
+$(document).ready(function (){
+	var mySwiper=new Swiper(".swiper-container",{
+			autoplay: 2000,//可选选项，自动滑动
+            loop: true,
+             // 如果需要分页器
+            pagination: '.swiper-pagination',
+
+		})
+	
+});
+		
+	</script>
+	
